@@ -1,0 +1,55 @@
+---
+- name: Deploy and run Docker containers with specific configurations
+  hosts: workers
+  become: yes
+
+  tasks:
+  
+    - name: Set hostname to match inventory name
+      hostname:
+        name: "{{ inventory_hostname }}"
+      register: hostname_result
+      failed_when: hostname_result.changed and hostname_result.rc != 0
+      
+    - name: Debug whoami
+      command: whoami
+      register: whoami_out
+
+    - debug:
+        msg: "Running as {{ whoami_out.stdout }}"       
+         
+    - name: Copy Dolos Agent to the worker
+      copy:
+        src: ../Dolos-Agent
+        dest: /home/{{ ansible_user }}/Desktop
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+        mode: '0644'
+
+    - name: Copy dolos configure to the worker
+      copy:
+        src: files/{{ dolos_conf_file }}
+        dest: /home/{{ ansible_user }}/Desktop/Dolos-Agent/agent/dolos.conf
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+        mode: '0644'
+
+    - name: Ensure run.sh has execute permission
+      file:
+        path: /home/{{ ansible_user }}/Desktop/Dolos-Agent/run.sh
+        mode: '0755'
+        
+    - name: Ensure ip_shuffle.sh has execute permission
+      file:
+        path: /home/{{ ansible_user }}/Desktop/Dolos-Agent/ip_shuffle.sh
+        mode: '0755'
+        
+    - name: Ensure send_ip_to_controller.sh has execute permission
+      file:
+        path: /home/{{ ansible_user }}/Desktop/Dolos-Agent/send_ip_to_controller.sh
+        mode: '0755'
+                   
+    - name: Run Docker
+      shell: |
+        cd /home/{{ ansible_user }}/Desktop/Dolos-Agent/
+        ./run.sh "{{endlessh_ports | join(' ')}}"

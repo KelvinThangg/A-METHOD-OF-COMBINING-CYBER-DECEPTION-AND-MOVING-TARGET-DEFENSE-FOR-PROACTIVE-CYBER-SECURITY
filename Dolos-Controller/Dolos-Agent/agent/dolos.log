@@ -1,0 +1,714 @@
+2025/04/18:07:45:21 [INF] :: Loaded configuration from dolos.conf
+2025/04/18:07:45:21 [INF] :: Listening on port 3333 for Portspoof
+2025/04/18:07:45:21 [INF] :: Listening on port 3334 for Portspoof
+2025/04/18:07:45:21 [INF] :: Listening on port 4444 for Portspoof
+2025/04/18:07:45:21 [WAR] :: Invalid module Endlessh or no ports defined
+2025/04/18:07:45:21 [INF] :: Starting port scan detection...
+2025/04/18:10:06:25 [INF] :: Loaded configuration from dolos.conf
+2025/04/18:10:06:25 [INF] :: Listening on port 3333 for Portspoof
+2025/04/18:10:06:25 [INF] :: Listening on port 3334 for Portspoof
+2025/04/18:10:06:25 [INF] :: Listening on port 4444 for Portspoof
+2025/04/18:10:06:25 [WAR] :: Invalid module Endlessh or no ports defined
+2025/04/18:10:06:25 [INF] :: Starting port scan detection...
+2025/04/18:10:31:55 [INF] :: Loaded configuration from dolos.conf
+2025/04/18:10:31:55 [INF] :: Listening on port 3333 for Portspoof
+2025/04/18:10:31:55 [INF] :: Listening on port 3334 for Portspoof
+2025/04/18:10:31:55 [INF] :: Listening on port 4444 for Portspoof
+2025/04/18:10:31:55 [INF] :: Starting port scan detection...
+2025/04/18:10:32:52 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [3333, 3334, 4444]}}
+2025/04/18:10:32:52 [INF] :: Listening on port 3333 for Portspoof
+2025/04/18:10:32:52 [INF] :: Listening on port 3334 for Portspoof
+2025/04/18:10:32:52 [INF] :: Listening on port 4444 for Portspoof
+2025/04/18:10:32:52 [INF] :: Starting port scan detection...
+2025/04/18:10:32:58 [WAR] :: Detected port scanning from 10.81.28.100 (multiple ports)
+2025/04/18:10:32:59 [DBG] :: Port 3334 mapped to module Portspoof
+2025/04/21:08:11:56 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [4444]}}
+2025/04/21:08:11:56 [INF] :: Starting port scan detection...
+2025/04/21:08:11:56 [INF] :: Listening on port 4444 for Portspoof
+2025/04/21:08:12:20 [WAR] :: Detected port scanning from 10.0.0.10 (multiple ports)
+2025/04/21:08:12:30 [WAR] :: Detected port scanning from 10.0.0.10 (multiple ports)
+2025/04/21:08:12:41 [WAR] :: Detected port scanning from 10.0.0.10 (multiple ports)
+2025/04/21:08:12:52 [WAR] :: Detected port scanning from 10.0.0.10 (multiple ports)
+2025/04/21:08:13:07 [WAR] :: Detected port scanning from 10.0.0.10 (multiple ports)
+2025/04/21:08:13:17 [WAR] :: Detected port scanning from 10.0.0.10 (multiple ports)
+2025/04/21:08:13:36 [WAR] :: Detected port scanning from 10.0.0.10 (multiple ports)
+2025/04/21:09:58:47 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [4444]}}
+2025/04/21:09:58:47 [ERR] :: Failed to create socket for port 4444: [Errno 98] Address already in use
+2025/04/21:09:58:47 [INF] :: Starting port scan detection with pypcap...
+2025/04/21:09:58:47 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:47 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:09:58:48 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:09:58:48 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:09:58:49 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:49 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:49 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:49 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:50 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:50 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:50 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:50 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:50 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:50 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:50 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:50 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:51 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:51 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:51 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:51 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:51 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:51 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:52 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:52 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:52 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:52 [ERR] :: Error in packet processor: 'TCP' object has no attribute 'tcp'
+2025/04/21:09:58:54 [INF] :: Shutting down packet capture...
+2025/04/21:10:03:12 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [4444]}}
+2025/04/21:10:03:12 [ERR] :: Failed to create socket for port 4444: [Errno 98] Address already in use
+2025/04/21:10:03:12 [INF] :: Starting port scan detection with pypcap...
+2025/04/21:10:03:12 [DBG] :: No module mapped for port 9997 (scan_type: Xmas)
+2025/04/21:10:03:12 [DBG] :: No module mapped for port 45466 (scan_type: None)
+2025/04/21:10:03:13 [DBG] :: No module mapped for port 9997 (scan_type: Xmas)
+2025/04/21:10:03:13 [DBG] :: No module mapped for port 45466 (scan_type: None)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 9997 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 45466 (scan_type: None)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 9997 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 45466 (scan_type: None)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 9997 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 45466 (scan_type: None)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 8088 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 8088 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 53884 (scan_type: None)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 53884 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 53884 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 8088 (scan_type: None)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 8088 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 8088 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 42636 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 42636 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 8088 (scan_type: None)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 9997 (scan_type: Xmas)
+2025/04/21:10:03:15 [DBG] :: No module mapped for port 45466 (scan_type: None)
+2025/04/21:10:03:16 [DBG] :: No module mapped for port 8088 (scan_type: Xmas)
+2025/04/21:10:07:36 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [3333]}}
+2025/04/21:10:07:36 [INF] :: Listening on port 3333 for Portspoof
+2025/04/21:10:07:36 [INF] :: Starting port scan detection with pypcap...
+2025/04/21:10:07:39 [WAR] :: [10.0.0.12::8088]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:40 [INF] :: Default action: Redirected port 8088 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 8088 (scan_type: Xmas) from 10.0.0.12
+2025/04/21:10:07:40 [WAR] :: [10.0.0.12::8088]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:40 [INF] :: Default action: Redirected port 8088 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 8088 (scan_type: Xmas) from 10.0.0.12
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 53884 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:40 [WAR] :: [10.0.0.10::53884]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:40 [INF] :: Default action: Redirected port 53884 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 53884 (scan_type: Xmas) from 10.0.0.10
+2025/04/21:10:07:40 [WAR] :: [10.0.0.12::9997]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:40 [INF] :: Default action: Redirected port 9997 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 9997 (scan_type: Xmas) from 10.0.0.12
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:40 [WAR] :: [34.107.243.93::34036]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:40 [INF] :: Default action: Redirected port 34036 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 34036 (scan_type: Xmas) from 34.107.243.93
+2025/04/21:10:07:40 [WAR] :: [10.0.0.10::443]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:40 [WAR] :: [10.0.0.12::9997]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:40 [INF] :: Default action: Redirected port 9997 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 9997 (scan_type: Xmas) from 10.0.0.12
+2025/04/21:10:07:40 [DBG] :: No module mapped for port 8088 (scan_type: None) from 10.0.0.12
+2025/04/21:10:07:40 [WAR] :: [10.0.0.12::9997]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:40 [INF] :: Default action: Redirected port 9997 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:41 [WAR] :: [10.0.0.12::9997]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:41 [INF] :: Default action: Redirected port 9997 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:41 [DBG] :: No module mapped for port 9997 (scan_type: Xmas) from 10.0.0.12
+2025/04/21:10:07:41 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:41 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:43 [WAR] :: [10.0.0.12::9997]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:44 [INF] :: Default action: Redirected port 9997 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:44 [DBG] :: No module mapped for port 9997 (scan_type: Xmas) from 10.0.0.12
+2025/04/21:10:07:44 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:44 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:44 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:44 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:44 [DBG] :: No module mapped for port 33146 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:45 [WAR] :: [10.0.0.12::8088]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:45 [INF] :: Default action: Redirected port 8088 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:45 [DBG] :: No module mapped for port 8088 (scan_type: Xmas) from 10.0.0.12
+2025/04/21:10:07:45 [DBG] :: No module mapped for port 53884 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:45 [DBG] :: No module mapped for port 53884 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:45 [WAR] :: [10.0.0.10::53884]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:45 [INF] :: Default action: Redirected port 53884 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:45 [DBG] :: No module mapped for port 53884 (scan_type: Xmas) from 10.0.0.10
+2025/04/21:10:07:45 [DBG] :: No module mapped for port 54912 (scan_type: None) from 10.0.0.10
+2025/04/21:10:07:45 [WAR] :: [10.0.0.10::54912]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:45 [INF] :: Default action: Redirected port 54912 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:45 [DBG] :: No module mapped for port 54912 (scan_type: Xmas) from 10.0.0.10
+2025/04/21:10:07:45 [WAR] :: [10.0.0.12::8088]: Someone connect to Portspoof (Xmas)
+2025/04/21:10:07:45 [INF] :: Default action: Redirected port 8088 to Portspoof (scan_type: Xmas)
+2025/04/21:10:07:45 [DBG] :: No module mapped for port 8088 (scan_type: Xmas) from 10.0.0.12
+2025/04/21:10:11:56 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [3333]}}
+2025/04/21:10:11:56 [INF] :: Listening on port 3333 for Portspoof
+2025/04/21:10:11:56 [INF] :: Starting port scan detection with pypcap...
+2025/04/21:10:12:18 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:12:21 [WAR] :: Detected port scanning from 10.0.0.111 (6 ports)
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:22 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:23 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:24 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:25 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:26 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:27 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:28 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:48 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:49 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:12:49 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:13:18 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.12, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:13:19 [WAR] :: DoS detected from 10.0.0.10, dropping traffic
+2025/04/21:10:13:22 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [3333]}}
+2025/04/21:10:13:22 [INF] :: Listening on port 3333 for Portspoof
+2025/04/21:10:13:22 [INF] :: Starting port scan detection with pypcap...
+2025/04/21:10:13:26 [WAR] :: Detected port scanning from 10.0.0.111 (6 ports)
+2025/04/21:10:13:30 [DBG] :: Port 3333 mapped to module Portspoof
+2025/04/21:10:13:31 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (SYN)
+2025/04/21:10:13:36 [WAR] :: Detected port scanning from 10.0.0.111 (7692 ports)
+2025/04/21:10:13:46 [WAR] :: Detected port scanning from 10.0.0.111 (5706 ports)
+2025/04/21:10:14:02 [INF] :: High-frequency connection from 50.16.88.233 to port 48554
+2025/04/21:10:14:28 [WAR] :: Detected port scanning from 10.0.0.111 (6 ports)
+2025/04/21:10:14:34 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:36 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:36 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:36 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:36 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:36 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:36 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:36 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:36 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:36 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:36 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:37 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:37 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:37 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:37 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:37 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:37 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:37 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:37 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:37 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:37 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:38 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:38 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:38 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:38 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:38 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:38 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:38 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:38 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:38 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:38 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:38 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (TCP Connect)
+2025/04/21:10:14:38 [INF] :: [10.0.0.111::3333]: received b''
+2025/04/21:10:14:38 [DBG] :: [10.0.0.111::3333]: Sent to 10.0.0.111:3333: b'220 ([-/.+\\w_]+) Dell ([-/.+\\w ]+) FTP Server ([\\w._-]+) ready\\.\\r\\n'...
+2025/04/21:10:14:38 [DBG] :: [10.0.0.111::3333]: Socket closed for 10.0.0.111:3333
+2025/04/21:10:14:38 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:38 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:38 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:38 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [WAR] :: Detected port scanning from 10.0.0.111 (7185 ports)
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (TCP Connect)
+2025/04/21:10:14:39 [INF] :: [10.0.0.111::3333]: received b''
+2025/04/21:10:14:39 [DBG] :: [10.0.0.111::3333]: Sent to 10.0.0.111:3333: b'HTTP/1\\.0 200 OK\\r\\n.*Server: Java PseudoHttpd/([\\w._-]+)\\r\\n.*<title>CSP Status</title>'...
+2025/04/21:10:14:39 [DBG] :: [10.0.0.111::3333]: Socket closed for 10.0.0.111:3333
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (TCP Connect)
+2025/04/21:10:14:39 [INF] :: [10.0.0.111::3333]: received b''
+2025/04/21:10:14:39 [DBG] :: [10.0.0.111::3333]: Sent to 10.0.0.111:3333: b'HTTP/1\\.0 200 OK\\r\\n.*<title>Web-Thermograph NTC, 10/100BT, 12-24V</title>\\r\\n'...
+2025/04/21:10:14:39 [DBG] :: [10.0.0.111::3333]: Socket closed for 10.0.0.111:3333
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:39 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (TCP Connect)
+2025/04/21:10:14:40 [INF] :: [10.0.0.111::3333]: received b''
+2025/04/21:10:14:40 [DBG] :: [10.0.0.111::3333]: Sent to 10.0.0.111:3333: b'HTTP/1\\.1 400 Bad Request \\r\\nConnection: close\\r\\nContent-Length: 15\\r\\nContent-Type: text/plain\\r\\'...
+2025/04/21:10:14:40 [DBG] :: [10.0.0.111::3333]: Socket closed for 10.0.0.111:3333
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:40 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:41 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:41 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:41 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:41 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:41 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:41 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:41 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:41 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:41 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:41 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:42 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:42 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:42 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:42 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:42 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:42 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:42 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:42 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:42 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:42 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:43 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:43 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:43 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:43 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:43 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:43 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:43 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:43 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:43 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:43 [INF] :: High-frequency connection from 10.0.0.12 to port 41091
+2025/04/21:10:14:44 [INF] :: Shutting down packet capture...
+2025/04/21:10:21:36 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [3333]}}
+2025/04/21:10:21:36 [INF] :: Listening on port 3333 for Portspoof
+2025/04/21:10:21:36 [INF] :: Starting port scan detection with pypcap...
+2025/04/21:10:21:49 [WAR] :: Detected port scanning from 10.0.0.111 (6 ports)
+2025/04/21:10:21:59 [WAR] :: Detected port scanning from 10.0.0.111 (2967 ports)
+2025/04/21:10:22:09 [WAR] :: Detected port scanning from 10.0.0.111 (3926 ports)
+2025/04/21:10:22:10 [INF] :: High-frequency connection from 142.251.10.95 to port 36970
+2025/04/21:10:22:10 [INF] :: High-frequency connection from 142.251.10.95 to port 36970
+2025/04/21:10:22:10 [INF] :: High-frequency connection from 142.251.10.95 to port 36970
+2025/04/21:10:22:19 [WAR] :: Detected port scanning from 10.0.0.111 (3922 ports)
+2025/04/21:10:22:29 [WAR] :: Detected port scanning from 10.0.0.111 (4027 ports)
+2025/04/21:10:22:39 [WAR] :: Detected port scanning from 10.0.0.111 (4039 ports)
+2025/04/21:10:22:49 [WAR] :: Detected port scanning from 10.0.0.111 (3785 ports)
+2025/04/21:10:22:59 [WAR] :: Detected port scanning from 10.0.0.111 (3752 ports)
+2025/04/21:10:23:09 [WAR] :: Detected port scanning from 10.0.0.111 (3680 ports)
+2025/04/21:10:23:19 [WAR] :: Detected port scanning from 10.0.0.111 (3035 ports)
+2025/04/21:10:23:29 [WAR] :: Detected port scanning from 10.0.0.111 (3560 ports)
+2025/04/21:10:23:39 [WAR] :: Detected port scanning from 10.0.0.111 (3342 ports)
+2025/04/21:10:23:49 [WAR] :: Detected port scanning from 10.0.0.111 (3620 ports)
+2025/04/21:10:23:59 [WAR] :: Detected port scanning from 10.0.0.111 (4382 ports)
+2025/04/21:10:24:09 [WAR] :: Detected port scanning from 10.0.0.111 (4285 ports)
+2025/04/21:10:24:10 [DBG] :: Port 3333 mapped to module Portspoof
+2025/04/21:10:24:11 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (SYN)
+2025/04/21:10:24:11 [DBG] :: Port 3333 mapped to module Portspoof
+2025/04/21:10:24:11 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (SYN)
+2025/04/21:10:24:19 [WAR] :: Detected port scanning from 10.0.0.111 (4012 ports)
+2025/04/21:10:24:29 [WAR] :: Detected port scanning from 10.0.0.111 (5070 ports)
+2025/04/21:10:25:19 [INF] :: High-frequency connection from 142.251.10.95 to port 52858
+2025/04/21:10:25:20 [INF] :: High-frequency connection from 142.251.10.95 to port 52858
+2025/04/21:10:25:20 [INF] :: High-frequency connection from 142.251.10.95 to port 52858
+2025/04/21:10:27:18 [WAR] :: Detected port scanning from 10.0.0.111 (6 ports)
+2025/04/21:10:27:28 [WAR] :: Detected port scanning from 10.0.0.111 (2966 ports)
+2025/04/21:10:27:38 [WAR] :: Detected port scanning from 10.0.0.111 (3323 ports)
+2025/04/21:10:27:48 [WAR] :: Detected port scanning from 10.0.0.111 (4045 ports)
+2025/04/21:10:27:58 [WAR] :: Detected port scanning from 10.0.0.111 (3201 ports)
+2025/04/21:10:27:59 [INF] :: Shutting down packet capture...
+2025/04/21:10:28:16 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [3333]}}
+2025/04/21:10:28:16 [INF] :: Listening on port 3333 for Portspoof
+2025/04/21:10:28:16 [INF] :: Starting port scan detection with pypcap...
+2025/04/21:10:28:43 [WAR] :: Detected port scanning from 10.0.0.111 (6 ports)
+2025/04/21:10:28:48 [DBG] :: Port 3333 mapped to module Portspoof
+2025/04/21:10:28:49 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (SYN)
+2025/04/21:10:28:49 [DBG] :: Port 3333 mapped to module Portspoof
+2025/04/21:10:28:49 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (SYN)
+2025/04/21:10:28:53 [WAR] :: Detected port scanning from 10.0.0.111 (2971 ports)
+2025/04/21:10:28:56 [INF] :: High-frequency connection from 142.251.10.95 to port 52712
+2025/04/21:10:28:57 [INF] :: High-frequency connection from 142.251.10.95 to port 52712
+2025/04/21:10:28:57 [INF] :: High-frequency connection from 142.251.10.95 to port 52712
+2025/04/21:10:28:57 [INF] :: High-frequency connection from 142.251.10.95 to port 52712
+2025/04/21:10:28:57 [INF] :: High-frequency connection from 34.120.208.123 to port 38038
+2025/04/21:10:28:57 [INF] :: High-frequency connection from 34.120.208.123 to port 38038
+2025/04/21:10:28:57 [INF] :: High-frequency connection from 34.120.208.123 to port 38038
+2025/04/21:10:28:57 [INF] :: High-frequency connection from 34.120.208.123 to port 38038
+2025/04/21:10:28:57 [INF] :: High-frequency connection from 34.120.208.123 to port 38038
+2025/04/21:10:28:57 [INF] :: High-frequency connection from 34.120.208.123 to port 38038
+2025/04/21:10:29:30 [INF] :: Shutting down packet capture...
+2025/04/21:10:29:50 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [3333]}}
+2025/04/21:10:29:50 [INF] :: Listening on port 3333 for Portspoof
+2025/04/21:10:29:50 [INF] :: Starting port scan detection with pypcap...
+2025/04/21:10:30:39 [WAR] :: Detected port scanning from 10.0.0.111 (6 ports)
+2025/04/21:10:30:42 [DBG] :: Port 3333 mapped to module Portspoof
+2025/04/21:10:30:43 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (SYN)
+2025/04/21:10:30:43 [DBG] :: Port 3333 mapped to module Portspoof
+2025/04/21:10:30:43 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (SYN)
+2025/04/21:10:30:49 [WAR] :: Detected port scanning from 10.0.0.111 (2972 ports)
+2025/04/21:10:31:09 [INF] :: Shutting down packet capture...
+2025/04/21:10:45:49 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [3333]}}
+2025/04/21:10:45:49 [INF] :: Listening on port 3333 for Portspoof
+2025/04/21:10:45:49 [INF] :: Starting port scan detection with pypcap...
+2025/04/21:10:45:55 [WAR] :: Detected port scanning from 10.0.0.111 (6 ports)
+2025/04/21:10:45:56 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:45:56 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:45:56 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:45:56 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:45:56 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:45:56 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:45:56 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:45:56 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:45:56 [WAR] :: DoS detected from 10.0.0.111, dropping traffic
+2025/04/21:10:46:01 [INF] :: High-frequency connection from 10.0.0.10 to port 60602
+2025/04/21:10:46:05 [WAR] :: Detected port scanning from 10.0.0.111 (10429 ports)
+2025/04/21:10:46:22 [INF] :: Shutting down packet capture...
+2025/04/21:10:47:05 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Portspoof', 'class': 'Portspoof', 'method': 'start', 'ports': [3333]}}
+2025/04/21:10:47:05 [INF] :: Listening on port 3333 for Portspoof
+2025/04/21:10:47:05 [INF] :: Starting port scan detection with pypcap...
+2025/04/21:10:47:09 [WAR] :: Detected port scanning from 10.0.0.111 (6 ports)
+2025/04/21:10:47:10 [DBG] :: Port 3333 mapped to module Portspoof
+2025/04/21:10:47:10 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (SYN)
+2025/04/21:10:47:19 [WAR] :: Detected port scanning from 10.0.0.111 (10791 ports)
+2025/04/21:10:49:20 [WAR] :: Detected port scanning from 10.0.0.111 (6 ports)
+2025/04/21:10:49:28 [DBG] :: Port 3333 mapped to module Portspoof
+2025/04/21:10:49:29 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (SYN)
+2025/04/21:10:49:30 [WAR] :: Detected port scanning from 10.0.0.111 (10846 ports)
+2025/04/21:10:51:41 [WAR] :: Detected port scanning from 10.0.0.111 (6 ports)
+2025/04/21:10:51:49 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:51:50 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (TCP Connect)
+2025/04/21:10:51:50 [INF] :: [10.0.0.111::3333]: received b''
+2025/04/21:10:51:50 [DBG] :: [10.0.0.111::3333]: Sent to 10.0.0.111:3333: b'\\xff\\xfb\\x01\\xff\\xfb\\x03RemoteX Telnet Server V([\\d.]+)\\n\\r\\n\\rc:\\\\>'...
+2025/04/21:10:51:50 [DBG] :: [10.0.0.111::3333]: Socket closed for 10.0.0.111:3333
+2025/04/21:10:51:50 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:51:50 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:51:50 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:51:50 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:51:50 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:51:50 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:51:50 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:51:50 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:51:50 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:51:50 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (TCP Connect)
+2025/04/21:10:51:50 [INF] :: [10.0.0.111::3333]: received b''
+2025/04/21:10:51:50 [DBG] :: [10.0.0.111::3333]: Sent to 10.0.0.111:3333: b'\\* OK ([-.\\w]+) IMAP4rev1 MDaemon (\\d[-.\\w]+) listo\\r\\n'...
+2025/04/21:10:51:50 [DBG] :: [10.0.0.111::3333]: Socket closed for 10.0.0.111:3333
+2025/04/21:10:51:51 [WAR] :: Detected port scanning from 10.0.0.111 (10087 ports)
+2025/04/21:10:51:51 [DBG] :: Connection from 10.0.0.111 to port 3333
+2025/04/21:10:51:51 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (TCP Connect)
+2025/04/21:10:51:51 [INF] :: [10.0.0.111::3333]: received b''
+2025/04/21:10:51:51 [DBG] :: [10.0.0.111::3333]: Sent to 10.0.0.111:3333: b'HTTP/1\\.1 200 OK\\r\\nServer: Unknown/0\\.0 UPnP/([\\d.]+) Conexant-EmWeb/R([\\d_]+)\\r\\nContent-Type: tex'...
+2025/04/21:10:51:51 [DBG] :: [10.0.0.111::3333]: Socket closed for 10.0.0.111:3333
+2025/04/21:10:51:56 [DBG] :: Port 3333 mapped to module Portspoof
+2025/04/21:10:51:57 [WAR] :: [10.0.0.111::3333]: Someone connect to Portspoof (SYN)
+2025/04/21:10:53:36 [INF] :: Shutting down packet capture...
+2025/07/03:08:34:53 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Honeyports', 'class': 'Honeyports', 'method': 'start', 'ports': [21, 80, 8080]}}
+2025/07/03:08:34:53 [ERR] :: Failed to create socket for port 21: [Errno 98] Address already in use
+2025/07/03:08:34:53 [ERR] :: Failed to create socket for port 80: [Errno 98] Address already in use
+2025/07/03:08:34:53 [ERR] :: Failed to create socket for port 8080: [Errno 98] Address already in use
+2025/07/03:08:34:53 [INF] :: Starting port scan detection with pypcap...
+2025/07/03:08:36:05 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Honeyports', 'class': 'Honeyports', 'method': 'start', 'ports': [21, 90, 9080]}}
+2025/07/03:08:36:05 [ERR] :: Failed to create socket for port 21: [Errno 98] Address already in use
+2025/07/03:08:36:05 [INF] :: Listening on port 90 for Honeyports
+2025/07/03:08:36:05 [INF] :: Listening on port 9080 for Honeyports
+2025/07/03:08:36:05 [INF] :: Starting port scan detection with pypcap...
+2025/07/03:08:50:51 [DBG] :: Connection from 10.81.28.100 to port 90
+2025/07/03:08:50:52 [WAR] :: [10.81.28.100::90]: Someone connect to Honeyport (TCP Connect scan)
+2025/07/03:08:50:52 [INF] :: [10.81.28.100::90]: Add rule to block IP 10.81.28.100 in iptables
+2025/07/03:08:50:52 [INF] :: [10.81.28.100::90]: received b''
+2025/07/03:08:50:52 [DBG] :: [10.81.28.100::90]: Socket closed for 10.81.28.100:90
+2025/07/03:08:52:47 [INF] :: Loaded configuration from dolos.conf: {'tool_1': {'file': 'Honeyports', 'class': 'Honeyports', 'method': 'start', 'ports': [21, 90, 9080]}}
+2025/07/03:08:52:47 [ERR] :: Failed to create socket for port 21: [Errno 98] Address already in use
+2025/07/03:08:52:47 [ERR] :: Failed to create socket for port 90: [Errno 98] Address already in use
+2025/07/03:08:52:47 [ERR] :: Failed to create socket for port 9080: [Errno 98] Address already in use
+2025/07/03:08:52:47 [INF] :: Starting port scan detection with pypcap...

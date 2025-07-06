@@ -1,0 +1,17 @@
+---
+- name: Stop specific Docker container
+  hosts: workers
+  become: yes
+
+  tasks:
+   - name: Remove the dynamic ip_shuffle cron job
+      ansible.builtin.cron:
+        user: root
+        # Sử dụng biến {{ ansible_user }} để tạo đường dẫn động
+        # Playbook sẽ tự thay thế {{ ansible_user }} bằng kezin1 hoặc kezin2 tùy vào host đang chạy
+        job: "/home/{{ ansible_user }}/Desktop/Dolos-Agent/ip_shuffle.sh --cron" # <-- THAY ĐỔI QUAN TRỌNG
+        state: absent
+        
+    - name: Stop container named "agent"
+      command: docker stop agent
+

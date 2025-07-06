@@ -1,0 +1,451 @@
+2025-05-13 11:22:32,353 [INFO] :: Starting API with inventory file at /home/splunk/Desktop/Dolos-Controller/Management/inventory.ini
+2025-05-13 11:22:32,355 [INFO] :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.10:5000
+2025-05-13 11:22:32,355 [INFO] :: [33mPress CTRL+C to quit[0m
+2025-05-13 11:23:03,086 [INFO] :: Received update request: agent_name=ubuntu, new_ip=10.0.0.197
+2025-05-13 11:23:03,086 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.215 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-13 11:23:03,086 [INFO] :: Attempting to update IP for agent_name: ubuntu to 10.0.0.197
+2025-05-13 11:23:03,086 [WARNING] :: No update performed, ubuntu not found in inventory
+2025-05-13 11:23:03,087 [INFO] :: 10.0.0.197 - - [13/May/2025 11:23:03] "POST /update-ip HTTP/1.1" 200 -
+2025-05-13 11:47:31,399 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.239
+2025-05-13 11:47:31,400 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.197 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-13 11:47:31,400 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.239
+2025-05-13 11:47:31,400 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.239 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-13 11:47:31,400 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-13 11:47:31,401 [INFO] :: 10.0.0.239 - - [13/May/2025 11:47:31] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 09:55:17,265 [INFO] :: Starting API with inventory file at /home/splunk/Desktop/Dolos-Controller/Management/inventory.ini
+2025-05-14 09:55:17,268 [INFO] :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.10:5000
+2025-05-14 09:55:17,268 [INFO] :: [33mPress CTRL+C to quit[0m
+2025-05-14 10:46:23,873 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.130
+2025-05-14 10:46:23,873 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.12 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:46:23,873 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.130
+2025-05-14 10:46:23,874 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.130 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:46:23,874 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:46:23,874 [INFO] :: 10.0.0.130 - - [14/May/2025 10:46:23] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 10:46:24,930 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.196
+2025-05-14 10:46:24,930 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.130 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:46:24,930 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.196
+2025-05-14 10:46:24,930 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.196 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:46:24,930 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:46:24,931 [INFO] :: 10.0.0.196 - - [14/May/2025 10:46:24] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 10:46:25,983 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.160
+2025-05-14 10:46:25,984 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.196 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:46:25,984 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.160
+2025-05-14 10:46:25,984 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.160 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:46:25,984 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:46:25,985 [INFO] :: 10.0.0.160 - - [14/May/2025 10:46:25] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 10:46:27,044 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.133
+2025-05-14 10:46:27,045 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.160 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:46:27,045 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.133
+2025-05-14 10:46:27,045 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.133 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:46:27,045 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:46:27,045 [INFO] :: 10.0.0.133 - - [14/May/2025 10:46:27] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 10:46:28,099 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.189
+2025-05-14 10:46:28,100 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.133 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:46:28,100 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.189
+2025-05-14 10:46:28,100 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.189 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:46:28,100 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:46:28,101 [INFO] :: 10.0.0.189 - - [14/May/2025 10:46:28] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 10:46:29,156 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.132
+2025-05-14 10:46:29,156 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.189 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:46:29,156 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.132
+2025-05-14 10:46:29,156 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.132 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:46:29,156 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:46:29,157 [INFO] :: 10.0.0.132 - - [14/May/2025 10:46:29] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 10:46:30,207 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.151
+2025-05-14 10:46:30,207 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.132 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:46:30,208 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.151
+2025-05-14 10:46:30,208 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.151 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:46:30,208 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:46:30,208 [INFO] :: 10.0.0.151 - - [14/May/2025 10:46:30] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 10:46:31,302 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.195
+2025-05-14 10:46:31,302 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.151 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:46:31,302 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.195
+2025-05-14 10:46:31,303 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.195 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:46:31,303 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:46:31,303 [INFO] :: 10.0.0.195 - - [14/May/2025 10:46:31] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 10:46:32,392 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.129
+2025-05-14 10:46:32,392 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.195 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:46:32,392 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.129
+2025-05-14 10:46:32,392 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.129 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:46:32,393 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:46:32,393 [INFO] :: 10.0.0.129 - - [14/May/2025 10:46:32] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 10:46:44,765 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.162
+2025-05-14 10:46:44,766 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.129 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:46:44,766 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.162
+2025-05-14 10:46:44,766 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.162 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:46:44,766 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:46:44,767 [INFO] :: 10.0.0.162 - - [14/May/2025 10:46:44] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 10:47:14,481 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.242
+2025-05-14 10:47:14,482 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.162 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:47:14,482 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.242
+2025-05-14 10:47:14,482 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.242 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:47:14,482 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:47:14,482 [INFO] :: 10.0.0.242 - - [14/May/2025 10:47:14] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 10:47:15,540 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.149
+2025-05-14 10:47:15,541 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.242 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 10:47:15,541 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.149
+2025-05-14 10:47:15,541 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.149 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 10:47:15,541 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 10:47:15,541 [INFO] :: 10.0.0.149 - - [14/May/2025 10:47:15] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:03:58,426 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.178
+2025-05-14 11:03:58,428 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.149 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:03:58,428 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.178
+2025-05-14 11:03:58,428 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.178 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:03:58,429 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:03:58,430 [INFO] :: 10.0.0.178 - - [14/May/2025 11:03:58] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:03:59,970 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.111
+2025-05-14 11:03:59,970 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.178 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:03:59,970 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.111
+2025-05-14 11:03:59,970 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.111 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:03:59,971 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:03:59,972 [INFO] :: 10.0.0.111 - - [14/May/2025 11:03:59] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:04:01,245 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.209
+2025-05-14 11:04:01,246 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.111 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:04:01,246 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.209
+2025-05-14 11:04:01,246 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.209 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:04:01,246 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:04:01,247 [INFO] :: 10.0.0.209 - - [14/May/2025 11:04:01] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:04:02,536 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.165
+2025-05-14 11:04:02,537 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.209 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:04:02,537 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.165
+2025-05-14 11:04:02,543 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.165 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:04:02,545 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:04:02,546 [INFO] :: 10.0.0.165 - - [14/May/2025 11:04:02] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:04:04,130 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.138
+2025-05-14 11:04:04,131 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.165 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:04:04,131 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.138
+2025-05-14 11:04:04,131 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.138 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:04:04,131 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:04:04,131 [INFO] :: 10.0.0.138 - - [14/May/2025 11:04:04] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:04:05,181 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.174
+2025-05-14 11:04:05,181 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.138 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:04:05,182 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.174
+2025-05-14 11:04:05,182 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.174 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:04:05,182 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:04:05,183 [INFO] :: 10.0.0.174 - - [14/May/2025 11:04:05] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:04:06,264 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.101
+2025-05-14 11:04:06,264 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.174 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:04:06,264 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.101
+2025-05-14 11:04:06,265 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.101 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:04:06,265 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:04:06,266 [INFO] :: 10.0.0.101 - - [14/May/2025 11:04:06] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:04:07,336 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.192
+2025-05-14 11:04:07,336 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.101 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:04:07,336 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.192
+2025-05-14 11:04:07,336 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.192 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:04:07,337 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:04:07,337 [INFO] :: 10.0.0.192 - - [14/May/2025 11:04:07] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:04:08,385 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.146
+2025-05-14 11:04:08,385 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.192 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:04:08,385 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.146
+2025-05-14 11:04:08,385 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.146 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:04:08,386 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:04:08,386 [INFO] :: 10.0.0.146 - - [14/May/2025 11:04:08] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:04:15,514 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.184
+2025-05-14 11:04:15,514 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.146 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:04:15,514 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.184
+2025-05-14 11:04:15,514 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.184 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:04:15,514 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:04:15,515 [INFO] :: 10.0.0.184 - - [14/May/2025 11:04:15] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:04:16,563 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.189
+2025-05-14 11:04:16,564 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.184 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:04:16,564 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.189
+2025-05-14 11:04:16,564 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.189 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:04:16,564 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:04:16,565 [INFO] :: 10.0.0.189 - - [14/May/2025 11:04:16] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:05:15,580 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.170
+2025-05-14 11:05:15,580 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.189 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:05:15,580 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.170
+2025-05-14 11:05:15,581 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.170 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:05:15,581 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:05:15,581 [INFO] :: 10.0.0.170 - - [14/May/2025 11:05:15] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:05:16,625 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.182
+2025-05-14 11:05:16,625 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.170 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:05:16,625 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.182
+2025-05-14 11:05:16,625 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.182 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:05:16,625 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:05:16,626 [INFO] :: 10.0.0.182 - - [14/May/2025 11:05:16] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:06:15,638 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.147
+2025-05-14 11:06:15,638 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.182 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:06:15,638 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.147
+2025-05-14 11:06:15,638 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.147 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:06:15,639 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:06:15,639 [INFO] :: 10.0.0.147 - - [14/May/2025 11:06:15] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:06:16,678 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.200
+2025-05-14 11:06:16,678 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.147 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:06:16,678 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.200
+2025-05-14 11:06:16,678 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.200 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:06:16,678 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:06:16,678 [INFO] :: 10.0.0.200 - - [14/May/2025 11:06:16] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:06:37,275 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.123
+2025-05-14 11:06:37,275 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.200 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:06:37,275 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.123
+2025-05-14 11:06:37,275 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.123 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:06:37,275 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:06:37,275 [INFO] :: 10.0.0.123 - - [14/May/2025 11:06:37] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:07:06,931 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.231
+2025-05-14 11:07:06,931 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.123 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:07:06,931 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.231
+2025-05-14 11:07:06,931 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.231 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:07:06,932 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:07:06,932 [INFO] :: 10.0.0.231 - - [14/May/2025 11:07:06] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:07:15,695 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.248
+2025-05-14 11:07:15,696 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.231 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:07:15,696 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.248
+2025-05-14 11:07:15,700 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.248 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:07:15,701 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:07:15,702 [INFO] :: 10.0.0.248 - - [14/May/2025 11:07:15] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:07:16,781 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.210
+2025-05-14 11:07:16,788 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.248 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:07:16,789 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.210
+2025-05-14 11:07:16,790 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.210 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:07:16,792 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:07:16,792 [INFO] :: 10.0.0.210 - - [14/May/2025 11:07:16] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:08:08,315 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.234
+2025-05-14 11:08:08,316 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.210 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:08:08,316 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.234
+2025-05-14 11:08:08,316 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.234 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:08:08,316 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:08:08,317 [INFO] :: 10.0.0.234 - - [14/May/2025 11:08:08] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:08:15,759 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.146
+2025-05-14 11:08:15,759 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.234 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:08:15,759 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.146
+2025-05-14 11:08:15,759 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.146 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:08:15,760 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:08:15,760 [INFO] :: 10.0.0.146 - - [14/May/2025 11:08:15] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:08:16,809 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.149
+2025-05-14 11:08:16,809 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.146 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:08:16,809 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.149
+2025-05-14 11:08:16,809 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.149 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:08:16,809 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:08:16,810 [INFO] :: 10.0.0.149 - - [14/May/2025 11:08:16] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:09:42,475 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.193
+2025-05-14 11:09:42,481 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.149 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:09:42,482 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.193
+2025-05-14 11:09:42,482 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.193 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:09:42,482 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:09:42,522 [INFO] :: 10.0.0.193 - - [14/May/2025 11:09:42] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:09:43,612 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.156
+2025-05-14 11:09:43,613 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.193 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:09:43,613 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.156
+2025-05-14 11:09:43,613 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.156 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:09:43,613 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:09:43,613 [INFO] :: 10.0.0.156 - - [14/May/2025 11:09:43] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:09:44,667 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.236
+2025-05-14 11:09:44,667 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.156 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:09:44,667 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.236
+2025-05-14 11:09:44,667 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.236 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:09:44,668 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:09:44,668 [INFO] :: 10.0.0.236 - - [14/May/2025 11:09:44] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:10:15,899 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.234
+2025-05-14 11:10:15,905 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.236 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:10:15,905 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.234
+2025-05-14 11:10:15,905 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.234 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:10:15,906 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:10:15,908 [INFO] :: 10.0.0.234 - - [14/May/2025 11:10:15] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:10:16,995 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.138
+2025-05-14 11:10:17,018 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.234 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:10:17,019 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.138
+2025-05-14 11:10:17,020 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.138 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:10:17,022 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:10:17,025 [INFO] :: 10.0.0.138 - - [14/May/2025 11:10:17] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:11:40,138 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.224
+2025-05-14 11:11:40,161 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.138 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:11:40,162 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.224
+2025-05-14 11:11:40,162 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.224 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:11:40,162 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:11:40,217 [INFO] :: 10.0.0.224 - - [14/May/2025 11:11:40] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:11:41,283 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.162
+2025-05-14 11:11:41,292 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.224 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:11:41,295 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.162
+2025-05-14 11:11:41,295 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.162 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:11:41,295 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:11:41,310 [INFO] :: 10.0.0.162 - - [14/May/2025 11:11:41] "POST /update-ip HTTP/1.1" 200 -
+2025-05-14 11:11:43,411 [INFO] :: Received update request: agent_name=worker1, new_ip=10.0.0.252
+2025-05-14 11:11:43,411 [INFO] :: Read inventory file: [workers]
+worker1 ansible_host=10.0.0.162 ansible_user=kezin1 ansible_ssh_port=22
+#worker2 ansible_host=192.168.18.128 ansible_user=tridung ansible_ssh_port=2000
+
+
+2025-05-14 11:11:43,414 [INFO] :: Attempting to update IP for agent_name: worker1 to 10.0.0.252
+2025-05-14 11:11:43,415 [INFO] :: Updated line for worker1: worker1 ansible_host=10.0.0.252 ansible_user=kezin1 ansible_ssh_port=22
+2025-05-14 11:11:43,415 [INFO] :: Successfully updated inventory file with new IP for worker1
+2025-05-14 11:11:43,416 [INFO] :: 10.0.0.252 - - [14/May/2025 11:11:43] "POST /update-ip HTTP/1.1" 200 -

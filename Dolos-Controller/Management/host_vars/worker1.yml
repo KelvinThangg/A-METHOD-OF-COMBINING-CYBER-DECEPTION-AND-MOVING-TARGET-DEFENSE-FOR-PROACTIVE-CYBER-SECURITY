@@ -1,0 +1,3 @@
+dolos_conf_file: dolos_worker1.conf
+
+endlessh_ports: []

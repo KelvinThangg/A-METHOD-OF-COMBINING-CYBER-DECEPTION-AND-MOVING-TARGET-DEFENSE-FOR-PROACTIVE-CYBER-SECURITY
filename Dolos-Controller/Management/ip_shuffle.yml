@@ -1,0 +1,14 @@
+---
+- name: Run rsync on worker
+  hosts: "{{ target_worker }}"
+  become: false
+  tasks:
+    - name: Run rsync script
+      command: /home/{{ ansible_user }}/Desktop/Dolos-Agent/ip_shuffle.sh
+      #script: rsync_to_workers.sh
+      register: rsync_output
+      ignore_errors: true
+
+    - name: Display rsync output
+      debug:
+        var: rsync_output.stdout_lines
